@@ -50,3 +50,19 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.5em;
+}
+
+.social-links a:hover {
+    color: #0073b1; /* Cambia este color según la red social, si es necesario */
+}
